@@ -1,0 +1,8 @@
+
+Log generated at /Users/opu/Projects/Java/Workspace/kfch_word2xml/KfchWord2XML.log
+with 2 error(s) , 0 warning(s) .
+
+Error: Error while processing file: /Users/opu/Projects/Java/Workspace/kfch_word2xml/input/kfch_be-2.doc Error: com.aspose.words.FileCorruptedException: The document appears to be corrupted and cannot be loaded.
+Error: Error while processing file: /Users/opu/Projects/Java/Workspace/kfch_word2xml/input/kfch_be-2.doc Error: java.lang.NullPointerException
+
+

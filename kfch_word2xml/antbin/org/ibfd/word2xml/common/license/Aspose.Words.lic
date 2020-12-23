@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Kaz Software Ltd</LicensedTo>
+    <Developers>Limited to 1 developer.</Developers>
+    <OEM>This is a non-redistributable license.</OEM>
+    <Products>
+      <Product>Aspose.Words for Java</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>3f498d06-2ff1-4112-adb0-4e3cef2e04a3</SerialNumber>
+    <SubscriptionExpiry>20090102</SubscriptionExpiry>
+    <LicenseVersion>2.1</LicenseVersion>
+  </Data>
+  <Signature>ZYZmHg4pTPZLdw8xOwYKCty420cqDe3xz2YCr7VmBnIKYq5J9a6HS7tb9b3n9cA+6uoPUJVpIP8VvNgD/w7pXcEYavTnsBdWFPVBaz4J+eH0cCitU8ZUPQ0DqS0dTMvyk06G9emhZZZN7sEmrfCeREROHWLFM+EpqXaTKlYFXRM=</Signature>
+</License>

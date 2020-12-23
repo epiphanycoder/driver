@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project name="kfch_word2xml" default="all" basedir=".">
+
+	<property name="src.dir" value="src" />
+	<property name="lib" value="lib" />
+	<property name="build.dir" value="antbin" />
+
+	<path id="compile.classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="prepare">
+		<mkdir dir="${build.dir}" />
+	</target>
+
+	<target name="clean" description="Removes all generated files.">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="clean-all" depends="clean" description="Removes all generated files.">
+		<delete file="${basedir}/kfchw2x.jar" />
+	</target>
+
+	<target name="compile" depends="prepare" description="Compiles all source code.">
+		<mkdir dir="${build.dir}" />
+		<javac source="1.5" srcdir="${src.dir}" destdir="${build.dir}" target="1.5" debug="true">
+			<classpath refid="compile.classpath" />
+		</javac>
+
+		<copy todir="${build.dir}">
+			<fileset dir="${src.dir}">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="kfchw2x-jar" depends="compile">
+			<pathconvert property="jar.classpath" pathsep=" ">
+				<path>
+					<fileset dir="lib">
+						<include name="**/*.jar" />
+					</fileset>
+				</path>
+				<chainedmapper>
+					<flattenmapper />
+					<globmapper from="*" to="lib/*" />
+				</chainedmapper>
+			</pathconvert>
+
+			<delete file="${basedir}/kfchw2x.jar">
+			</delete>
+
+			<jar jarfile="${basedir}/kfchw2x.jar" basedir="${build.dir}">
+				<manifest>
+					<attribute name="Class-Path" value="${jar.classpath}" />
+					<attribute name="Main-Class" value="org.ibfd.word2xml.kfch.KFCHMain" />
+				</manifest>
+			</jar>
+	</target>
+	
+	<target name="all" depends="clean,kfchw2x-jar" description="Cleans, compiles, then builds the JAR file." />
+</project>

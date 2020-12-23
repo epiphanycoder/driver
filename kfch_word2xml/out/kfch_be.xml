@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE keyfeature PUBLIC "-//IBFD//ELEMENTS KEYFEATURE//EN" "http://dtd.ibfd.org/dtd/kf.dtd">
+
+<keyfeature id="kfch_be" collection="kfch">
+    <country cc="ch">Switzerland</country>
+    <countrydiv cdc="be" type="canton">
+        <countrydivname>Bern</countrydivname>
+    </countrydiv>
+    <reviewed>
+        <name>Last Reviewed</name>
+        <date sortdate="2017-04-20">20 April 2017</date>
+    </reviewed>
+    <companies id="kfch_be_companies">
+        <taxtopics>
+            <taxtopic tc="1_1" score="3">Corporate Taxation</taxtopic>
+            <taxtopic tc="1_3" score="2">Withholding Taxes</taxtopic>
+            <taxtopic tc="1_1_22_2" score="3">Local / Municipal / Cantonal</taxtopic>
+            <taxtopic tc="1_1_21_2" score="3">Local / Municipal / Cantonal</taxtopic>
+        </taxtopics>
+        <title>A. Companies</title>
+        <resident_companies id="kfch_be_resident_companies">
+            <title>1. Resident companies</title>
+            <corp_tax_rates_res id="kfch_be_corp_tax_rates_res">
+                <name>
+                    <extxref target="gtha_ch_be_s_1.2.">Corporate tax rates</extxref>
+                </name>
+                <values>
+                    <value>basic rate 1.55% on 20% of the taxable income, but at least on CHF 10,000; 3.1% on next CHF 50,000; 4.6% on any excess;</value>
+                    <value>basic tax is multiplied by a cantonal coefficient (3.06 for 2017) resulting in the effective cantonal tax;</value>
+                    <value>municipal surcharge is equal to basic cantonal tax, multiplied by a municipal coefficient (for city Bern 1.54 for 2017)</value>
+                    <value></value>
+                </values>
+            </corp_tax_rates_res>
+            <tax_base id="kfch_be_tax_base">
+                <name>
+                    <extxref target="gtha_ch_canmun_s_1.3.1.">Tax base</extxref>
+                </name>
+                <values>
+                    <value>worldwide (except income from business, PE or immovable property located outside canton)</value>
+                    <value></value>
+                </values>
+            </tax_base>
+            <companies_capital_gains_res id="kfch_be_companies_capital_gains_res">
+                <name>
+                    <extxref target="gtha_ch_be_s_1.1.">Capital gains</extxref>
+                </name>
+                <values>
+                    <value>generally part of business income;</value>
+                    <value>gains on immovable property in canton subject to real estate gains tax - progressive rates from 1.44% to 8.10%</value>
+                    <value></value>
+                </values>
+            </companies_capital_gains_res>
+            <companies_unilat_double_tax_relief id="kfch_be_companies_unilat_double_tax_relief">
+                <name>
+                    <extxref target="gtha_ch_canmun_s_6.2.1.">Unilateral double taxation relief</extxref>
+                </name>
+                <values>
+                    <value>no (income from an enterprise, PE or immovable property abroad is exempt, as is capital pertaining to such assets)</value>
+                    <value></value>
+                </values>
+            </companies_unilat_double_tax_relief>
+        </resident_companies>
+        <non_resident_companies id="kfch_be_non_resident_companies">
+            <title>2. Non-resident companies</title>
+            <corp_tax_rates_nonres id="kfch_be_corp_tax_rates_nonres">
+                <name>
+                    <extxref target="gtha_ch_be_s_1.2.">Corporate tax rates</extxref>
+                </name>
+                <values>
+                    <value>basic rate 1.55% on 20% of the taxable income, but at least on CHF 10,000; 3.1% on next CHF 50,000; 4.6% on any excess;</value>
+                    <value>basic tax is multiplied by a cantonal coefficient (3.06 for 2017) resulting in the effective cantonal tax;</value>
+                    <value>municipal surcharge is equal to basic cantonal tax, multiplied by a municipal coefficient (for city Bern 1.54 for 2017)</value>
+                    <value></value>
+                </values>
+            </corp_tax_rates_nonres>
+            <companies_capital_gains_nonres id="kfch_be_companies_capital_gains_nonres">
+                <name>
+                    <extxref target="gtha_ch_s_2.2.">Capital gains on sale of shares in resident companies</extxref>
+                </name>
+                <values>
+                    <value>yes;</value>
+                    <value>participation relief subject to minimum shareholding requirements</value>
+                    <value></value>
+                </values>
+            </companies_capital_gains_nonres>
+        </non_resident_companies>
+        <branch_profits id="kfch_be_branch_profits">
+            <name>
+                <extxref target="gtha_ch_s_3.">Branch profits</extxref>
+            </name>
+            <values>
+                <value>no</value>
+                <value></value>
+            </values>
+        </branch_profits>
+        <fees_mgt id="kfch_be_fees_mgt">
+            <name>
+                <extxref target="gtha_ch_canmun_s_6.3.">Fees (management)</extxref>
+            </name>
+            <values>
+                <value>no</value>
+                <value></value>
+            </values>
+        </fees_mgt>
+        <specific_issues id="kfch_be_specific_issues">
+            <title>3. Specific issues</title>
+            <group_treatment id="kfch_be_group_treatment">
+                <name>
+                    <extxref target="gtha_ch_canmun_s_2.1.">Group treatment</extxref>
+                </name>
+                <values>
+                    <value>no</value>
+                    <value></value>
+                </values>
+            </group_treatment>
+            <incentives id="kfch_be_incentives">
+                <name>
+                    <extxref target="gtha_ch_canmun_s_1.7.">Incentives</extxref>
+                </name>
+                <values>
+                    <value>n/a</value>
+                    <value></value>
+                </values>
+            </incentives>
+            <anti-avoidance id="kfch_be_anti-avoidance">
+                <name>
+                    <extxref target="gtha_ch_canmun_s_7.">Anti-avoidance</extxref>
+                </name>
+                <values>
+                    <value>n/a</value>
+                    <value></value>
+                </values>
+            </anti-avoidance>
+        </specific_issues>
+    </companies>
+    <individuals id="kfch_be_individuals">
+        <taxtopics>
+            <taxtopic tc="1_2" score="3">Individual Taxation</taxtopic>
+            <taxtopic tc="1_3" score="2">Withholding Taxes</taxtopic>
+            <taxtopic tc="1_1_22_2" score="3">Local / Municipal / Cantonal</taxtopic>
+            <taxtopic tc="1_1_21_2" score="3">Local / Municipal / Cantonal</taxtopic>
+        </taxtopics>
+        <title>B. Individuals</title>
+        <resident_individuals id="kfch_be_resident_individuals">
+            <title>1. Resident individuals</title>
+            <income_tax_rates_res id="kfch_be_income_tax_rates_res">
+                <name>
+                    <extxref target="gthb_ch_be_s_1.6.">Income tax rates</extxref>
+                </name>
+                <values>
+                    <value>progressive;</value>
+                    <value>top rate 6.5% (over CHF 449,100 for single taxpayers; over CHF 463,600 for married taxpayers);</value>
+                    <value>basic tax is multiplied by a cantonal coefficient (3.06 for 2017) resulting in the effective cantonal tax;</value>
+                    <value>municipal surcharge is equal to basic cantonal tax, multiplied by a municipal coefficient (for city Bern 1.54 for 2017)</value>
+                    <value></value>
+                </values>
+            </income_tax_rates_res>
+            <ind_capital_gains_res id="kfch_be_ind_capital_gains_res">
+                <name>
+                    <extxref target="gthb_ch_be_s_1.3.">Capital gains</extxref>
+                </name>
+                <values>
+                    <value>not subject to tax, if derived from private transactions</value>
+                    <value></value>
+                </values>
+            </ind_capital_gains_res>
+            <ind_unilat_double_tax_relief id="kfch_be_ind_unilat_double_tax_relief">
+                <name>
+                    <extxref target="gthb_ch_canmun_s_6.2.1.">Unilateral double taxation relief</extxref>
+                </name>
+                <values>
+                    <value>yes</value>
+                    <value></value>
+                </values>
+            </ind_unilat_double_tax_relief>
+        </resident_individuals>
+        <non_resident_individuals id="kfch_be_non_resident_individuals">
+            <title>2. Non-resident individuals</title>
+            <income_tax_rates_nonres id="kfch_be_income_tax_rates_nonres">
+                <name>
+                    <extxref target="gthb_ch_be_s_1.6.">Income tax rates</extxref>
+                </name>
+                <values>
+                    <value>progressive;</value>
+                    <value>top rate 6.5% (over CHF 449,100 for single taxpayers; over CHF 463,600 for married taxpayers);</value>
+                    <value>basic tax is multiplied by a cantonal coefficient (3.06 for 2017) resulting in the effective cantonal tax;</value>
+                    <value>municipal surcharge is equal to basic cantonal tax, multiplied by a municipal coefficient (for city Bern 1.54 for 2017)</value>
+                    <value></value>
+                </values>
+            </income_tax_rates_nonres>
+            <ind_capital_gains_nonres id="kfch_be_ind_capital_gains_nonres">
+                <name>
+                    <extxref target="gthb_ch_be_s_1.3.">Capital gains on sale of shares in resident companies</extxref>
+                </name>
+                <values>
+                    <value>capital gains are not subject to income tax unless derived in the course of a business</value>
+                    <value></value>
+                </values>
+            </ind_capital_gains_nonres>
+        </non_resident_individuals>
+        <ind_employment_income id="kfch_be_ind_employment_income">
+            <name>
+                <extxref target="gthb_ch_canmun_s_6.2.3.">Employment income</extxref>
+            </name>
+            <values>
+                <value>depending on the profession</value>
+                <value></value>
+            </values>
+        </ind_employment_income>
+        <ind_fees_reduced id="kfch_be_ind_fees_reduced">
+            <name>
+                <extxref target="gthb_ch_be_s_4.">Fees (directors)</extxref>
+            </name>
+            <values>
+                <value>18% (does not include additional 5% federal withholding tax)</value>
+                <value></value>
+            </values>
+        </ind_fees_reduced>
+    </individuals>
+    <other_taxes id="kfch_be_other_taxes">
+        <taxtopics>
+            <taxtopic tc="1_5" score="3">Other Taxes</taxtopic>
+        </taxtopics>
+        <title>C. Other Taxes</title>
+        <net_wealth_tax id="kfch_be_net_wealth_tax">
+            <name>
+                <extxref target="gthb_ch_be_s_2.">Net wealth tax</extxref>
+            </name>
+            <values>
+                <value>yes</value>
+                <value></value>
+            </values>
+        </net_wealth_tax>
+        <inheritance_gift_taxes id="kfch_be_inheritance_gift_taxes">
+            <name>
+                <extxref target="gthb_ch_be_s_3.">Inheritance and gift taxes</extxref>
+            </name>
+            <values>
+                <value>yes</value>
+                <value></value>
+            </values>
+        </inheritance_gift_taxes>
+    </other_taxes>
+    <turnover_taxes id="kfch_be_turnover_taxes">
+        <taxtopics>
+            <taxtopic tc="1_4" score="3">VAT</taxtopic>
+        </taxtopics>
+        <title>D. Turnover Taxes</title>
+        <vat_gst_standard id="kfch_be_vat_gst_standard">
+            <name>
+                <extxref target="gtha_ch_s_8.">VAT/GST (standard)</extxref>
+            </name>
+            <values>
+                <value>no (VAT only at federal level)</value>
+                <value></value>
+            </values>
+        </vat_gst_standard>
+        <vat_gst_reduced id="kfch_be_vat_gst_reduced">
+            <name>
+                <extxref target="gtha_ch_s_8.">VAT/GST (reduced)</extxref>
+            </name>
+            <values>
+                <value>no</value>
+                <value></value>
+            </values>
+        </vat_gst_reduced>
+        <turnover_other id="kfch_be_turnover_other">
+            <name>
+                <extxref target="gtha_ch_s_8.">Other</extxref>
+            </name>
+            <values>
+                <value>no</value>
+                <value></value>
+            </values>
+        </turnover_other>
+    </turnover_taxes>
+</keyfeature>
